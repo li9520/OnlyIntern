@@ -29,4 +29,4 @@ $ make develop        - Запуск в режиме разработки
 $ make build          - Сборока проекта
 ```
 
-### **<a target="_blank" href="https://frontend-project-11-739o.vercel.app//">Посмотреть</a>**
+### **<a target="_blank" href="https://only-intern-e8dc.vercel.app/">Посмотреть</a>**

@@ -1,0 +1,32 @@
+{
+  "name": "onlyintern",
+  "version": "1.0.0",
+  "description": "onlyintern",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "watch": "webpack --watch",
+    "serve": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/li9520/OnlyIntern.git"
+  },
+  "author": "Platonova E",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/li9520/OnlyIntern/issues"
+  },
+  "homepage": "https://github.com/li9520/OnlyIntern#readme",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
